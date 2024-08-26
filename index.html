@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastTrack Logistics</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">FastTrack Link</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#track">Track Shipment</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Logistics Solutions</h1>
+        <p>Your goods, delivered on time, every time.</p>
+        <a href="#services" class="btn">Get Started</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="img/freight.jpg" alt="Freight Shipping">
+                <h3>Freight Shipping</h3>
+                <p>Efficient and reliable shipping solutions across the globe.</p>
+            </div>
+            <div class="service">
+                <img src="img/warehousing.jpg" alt="Warehousing">
+                <h3>Warehousing</h3>
+                <p>Secure storage facilities with real-time inventory tracking.</p>
+            </div>
+            <div class="service">
+                <img src="img/courier.jpg" alt="Courier Services">
+                <h3>Courier Services</h3>
+                <p>Fast and dependable courier services for all your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="img/slide1.jpg" alt="Slide 1">
+            </div>
+            <div class="slide fade">
+                <img src="img/slide2.jpg" alt="Slide 2">
+            </div>
+            <div class="slide fade">
+                <img src="img/slide3.jpg" alt="Slide 3">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <section id="track">
+        <h2>Track Your Shipment</h2>
+        <form>
+            <label for="tracking-number">Enter Tracking Number:</label>
+            <input type="text" id="tracking-number" name="tracking-number" placeholder="e.g. 1234567890">
+            <button type="submit">Track</button>
+        </form>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"FastTrack Logistics delivered my goods ahead of schedule. Highly recommend!"</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The best logistics company I've worked with. Excellent service!"</p>
+                <h4>- Jane Smith</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FastTrack Logistics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
